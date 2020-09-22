@@ -1,4 +1,4 @@
-# swiggy
+# Swiggy🤖
 
 
 
@@ -21,5 +21,6 @@ Swiggy is a Discord Community Bot. Currently under construction 🚧
 |```!rng```|Generates a random number between 1 & 28| 
 |```!rps```|Play Rock Paper Scissors against Swiggy| 
 |```!quest```|Search a OSRS quest quide in the OSwiki by it's name| 
+|```!ping```|Play Ping Pong with Swiggy|
 </details>
 
