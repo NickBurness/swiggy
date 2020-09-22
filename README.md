@@ -15,7 +15,7 @@ Swiggy is a Discord Community Bot. Currently under construction 🚧
 |```!commands```|List all of the commands or info about a specific command| 
 |```!user-info```|Get info on a user, discord name and ID|
 |```!server```|Get details about the active discord server|
-|```!avatar```|Get the avatar URL of the tagged user(s), or your own avatar.| 
+|```!avatar```|Get the avatar URL of the tagged user(s), or your own avatar.|```!pfp```, ```!icon```|
 |```!prune```|Deletes upto 99 messages from a discord channel| 
 |```!kick```|Attempts to kick a user from a server| 
 |```!rng```|Generates a random number between 1 & 28| 
