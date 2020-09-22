@@ -1,8 +1,8 @@
 module.exports = {
-    name: 'rps',
-    description: 'Play rock, paper, scissors with swiggy!',
+    name: "rps",
+    description: "Play rock, paper, scissors with swiggy!",
     execute(message, args) {
-        const acceptedReplies = ['rock', 'paper', 'scissors'];
+        const acceptedReplies = ["rock", "paper", "scissors"];
         const random = Math.floor((Math.random() * acceptedReplies.length));
         const result = acceptedReplies[random];
 
@@ -14,20 +14,32 @@ module.exports = {
         if (result === choice) return message.reply("It's a tie! We had the same choice.");
 
         switch (choice) {
-            case 'rock': {
-                if (result === 'paper') return message.reply('I won!');
-                else return message.reply('You won!');
+            case "rock": {
+                if (result === "paper") {
+                    return message.reply("I Won!");
+                }
+                else {
+                    return message.reply("You Won!");
+                }
             }
-            case 'paper': {
-                if (result === 'scissors') return message.reply('I won!');
-                else return message.reply('You won!');
+            case "paper": {
+                if (result === "scissors") {
+                    return message.reply("I Won!");
+                }
+                else {
+                    return message.reply("You Won!");
+                }
             }
-            case 'scissors': {
-                if (result === 'rock') return message.reply('I won!');
-                else return message.reply('You won!');
+            case "scissors": {
+                if (result === "rock") {
+                    return message.reply("I Won!");
+                }
+                else {
+                    return message.reply("You Won!");
+                }
             }
-            default: 
-                return message.channel.send(`Only these responses are accepted: \`${acceptedReplies.join(', ')}\``); 
+            default:
+                return message.channel.send(`Only these responses are accepted: \`${acceptedReplies.join(', ')}\``);
         }
     },
 };
