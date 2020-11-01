@@ -14,5 +14,6 @@ module.exports = {
         } else {
             message.reply('You need to join a voice channel first!');
         }
+        
     }
 };

@@ -1,6 +1,7 @@
 module.exports = {
     name: "rps",
     description: "Play rock, paper, scissors with swiggy!",
+    
     execute(message, args) {
         const acceptedReplies = ["rock", "paper", "scissors"];
         const random = Math.floor((Math.random() * acceptedReplies.length));
